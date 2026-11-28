@@ -37,12 +37,12 @@
     <string name="skip">Pomin</string>
     <string name="finish">Koniec</string>
     <string name="slide_1_title">Darmowy i Open Source</string>
-    <string name="slide_1_desc">RethinkDNS to oprogramowanie typu open source wspierane przez program Mozilla Builders MVP.</string>
-    <string name="allow">dozwól</string>
-    <string name="block">zablokuj</string>
-    <string name="bypass_universal">obejście uniwersalne</string>
-    <string name="exclude">wyklucz</string>
-    <string name="untracked">nieśledzone</string>
+    <string name="slide_1_desc">Rethink to oprogramowanie typu open source, wspierane przez program Mozilla Builders MVP oraz fundację FOSS United.</string>
+    <string name="allow">Zezwól</string>
+    <string name="block">Blokuj</string>
+    <string name="bypass_universal">Uniwersalne obejście</string>
+    <string name="exclude">Wyklucz</string>
+    <string name="untracked">Bez śledzenia</string>
     <string name="warning_title" description="Status indicator text shown in a warning notification.">Ostrzeżenie: Rethink został dezaktywowany</string>
     <string name="notification_content" description="Indicates what will happen if the user taps the notification.">Naciśnij, aby zmienić ustawienia ochrony</string>
     <string name="firewall_mode_notification_title">Chroniony! Połączony z Zaporą.</string>
@@ -95,7 +95,7 @@
     <string name="title_statistics">Statystyki</string>
     <string name="slide_2_title">Witaj</string>
     <string name="rdns_plus" translatable="false">RDNS Plus</string>
-    <string name="isolate">izoluj</string>
+    <string name="isolate">Izoluj</string>
     <string name="alert_permission_accessibility">Pozwolenie - Dostępność</string>
     <string name="bsct_conn_rule_explanation">&lt;u&gt;#1&lt;/u&gt;: Blokuje aplikację przed połączeniem się z Internetem. \n &lt;u&gt;#2&lt;/u&gt;: Blokuje każdej aplikacji możliwość łączenia się z określonym IP. \n &lt;u&gt;#3&lt;/u&gt;: Blokuje wszystkie połączenia, gdy urządzenie jest zablokowane (Universal Firewall). \n &lt;u&gt;#4&lt;/u&gt;: Blokuje każdą aplikację, która nie jest używana (Universal Firewall). \n &lt;u&gt;#5&lt;/u&gt;: Blokuje połączenia, gdy źródło aplikacji jest nieznane (Universal Firewall). \n &lt;u&gt;#6&lt;/u&gt;: Blokuje cały ruch UDP z wyjątkiem DNS (Universal Firewall). \n &lt;u&gt;#7&lt;/u&gt;: Blokuje połączenia, gdy DNS jest omijany (Universal Firewall).</string>
     <string name="always_on_dialog_neutral">Ustawienia</string>
@@ -198,7 +198,7 @@
     <string name="orbot_socks5_desc" translatable="true">Przekazuj wszystkie połączenia TCP do programu Orbot.</string>
     <string name="orbot_http_desc" translatable="true">Ustanawia tunel HTTP CONNECT do Orbota.</string>
     <string name="orbot_both" translatable="true">TCP+ HTTP proxy serwer</string>
-    <string name="settings_proxy_header" translatable="true">proxy serwer</string>
+    <string name="settings_proxy_header" translatable="true">Proxy</string>
     <string name="orbot" translatable="true">Orbot</string>
     <string name="always_on_dialog_stop_message" translatable="true">Zawsze włączona sieć VPN jest włączona dla Rethink. Czy na pewno i tak chcesz zatrzymać Rethink?</string>
     <string name="orbot_app_issue" translatable="true">Nie można uruchomić programu Orbot. Czy jest zainstalowany?</string>
@@ -238,7 +238,7 @@
     <string name="settings_ptrans_heading" translatable="true">Wymuś wyjście IPv4</string>
     <string name="settings_network_all_networks_desc" translatable="true">Po włączeniu Rethink używa wszystkich dostępnych sieci do łączenia się z Internetem. Jeśli nie, używa dowolnej sieci, która zostanie uznana za <i>aktywną</i> przez Androida.</string>
     <string name="settings_autostart_bootup_desc" translatable="true">Po włączeniu urządzenia uruchom Rethink, jeśli był uruchomiony przed zamknięciem.</string>
-    <string name="settings_network_all_networks" translatable="true">Użyj wszystkich dostępnych sieci (eksperymentalnie)</string>
+    <string name="settings_network_all_networks" translatable="true">Użyj wszystkich dostępnych sieci</string>
     <string name="settings_check_update_heading" translatable="true">Sprawdzanie dostępności aktualizacji aplikacji</string>
     <string name="settings_custom_downloader_heading" translatable="true">Korzystanie z narzędzia do pobierania w aplikacji</string>
     <string name="settings_orbot_notification_action" translatable="true">Otwórz Orbot-a</string>
@@ -291,7 +291,7 @@
     <string name="intent_launch_error" translatable="true">Licz nie uruchamiaj %1$s</string>
     <string name="no_browser_error" translatable="true">Nie można otworzyć strony internetowej z przeglądarki.</string>
     <string name="settings_http_proxy_error_text1" translatable="true">Zakres portów powinien wynosić od 1024 do 65535</string>
-    <string name="settings_dns_proxy_dialog_positive_btn" translatable="true">ustaw</string>
+    <string name="settings_dns_proxy_dialog_positive_btn" translatable="true">Ustaw</string>
     <string name="settings_socks_forwarding_desc_no_app" translatable="true">Przekierowanie do %1$s:%2$s</string>
     <string name="settings_socks_forwarding_desc" translatable="true">Przekazywanie do %1$s:%2$s, %3$s</string>
     <string name="settings_socks_forwarding_default_desc" translatable="true">Przekaż połączenia do punktu końcowego SOCKS5.</string>
@@ -301,10 +301,10 @@
     <string name="settings_notification_dialog_title" translatable="true">Wybierz akcję powiadomienia</string>
     <string name="lbl_configure" translatable="true">Skonfiguruj</string>
     <string name="lbl_logs" translatable="true">logi</string>
-    <string name="bypass_dns_firewall" translatable="true">omiń dns i firewall</string>
+    <string name="bypass_dns_firewall" translatable="true">Omiń dns i firewall</string>
     <string name="bsct_block_domain" translatable="true">Zablokuj, zaufaj &lt;u&gt;domenie&lt;/u&gt; dla &lt;u&gt;tej aplikacji&lt;/u&gt;</string>
     <string name="settings_lock_down_proxy_desc" translatable="true">Nie można skonfigurować serwerów proxy, gdy sieć VPN działa w trybie tylko DNS lub w trybie blokady. <u>Przejdź do ustawień VPN</u></string>
-    <string name="settings_general_customize" translatable="true">dostosuj</string>
+    <string name="settings_general_customize" translatable="true">Dostosuj</string>
     <string name="settings_dns_proxy_dialog_header" translatable="true">Ustaw proxy SOCKS5</string>
     <string name="settings_dns_proxy_dialog_app_desc" translatable="false">Wybrana aplikacja zostanie wykluczona z VPN, aby umożliwić jej połączenia proxy w Twoim imieniu.</string>
     <string name="settings_socks5_dialog_hint_port" translatable="true">Port</string>
@@ -315,8 +315,8 @@
     <string name="settings_theme_dialog_themes_4" translatable="true">Prawdziwa czerń</string>
     <string name="settings_ip_dialog_title" translatable="true">Wybierz wersję IP</string>
     <string name="settings_ip_dialog_ipv4" translatable="true">IPv4 (domyślnie)</string>
-    <string name="settings_ip_dialog_ipv6" translatable="true">IPv6 (eksperymentalny)</string>
-    <string name="settings_ip_dialog_ipv46" translatable="true">Automatyczny (eksperymentalne)</string>
+    <string name="settings_ip_dialog_ipv6" translatable="true">IPv6</string>
+    <string name="settings_ip_dialog_ipv46" translatable="true">Automatyczny</string>
     <string name="settings_ip_text_ipv4" translatable="true">IPv4</string>
     <string name="settings_ip_text_ipv6" translatable="true">IPv6</string>
     <string name="settings_ip_text_ipv46" translatable="true">Automatycznie</string>
@@ -326,7 +326,7 @@
     <string name="settings_notification_desc3" translatable="true">Nic</string>
     <string name="settings_biometric_desc" translatable="true">Zabezpiecz tę aplikację za pomocą blokady ekranu</string>
     <string name="settings_default_dns_heading" translatable="true">Wybierz rezerwowy DNS</string>
-    <string name="settings_default_dns_desc" translatable="true">W rzadkich przypadkach, gdy nie można było ustalić preferowanego przez użytkownika DNS, używany jest rezerwowy DNS.</string>
+    <string name="settings_default_dns_desc" translatable="true">Używane tylko podczas uruchamiania w celu znalezienia adresu IP zaszyfrowanego serwera DNS.</string>
     <string name="firewall_card_universal_rules" translatable="true">%1$s zasada(-y) uniwersalna(-e)</string>
     <string name="firewall_status_excluded" translatable="true">wykluczone z dns i firewalla</string>
     <string name="firewall_status_bypass_dns_firewall" translatable="true">omija reguły DNS i firewalla</string>
@@ -824,7 +824,7 @@
     <string name="add_peer" translatable="true">Dodaj element równorzędny</string>
     <string name="cloudflare_family_dns_desc" translatable="true">Blokuje złośliwe oprogramowanie i treści dla dorosłych. Wykorzystuje punkt końcowy DNS Cloudflare 1.1.1.3.</string>
     <string name="crypt_quad9_security_desc" translatable="true">Quad9 (anycast) dnssec/no–log/filter 9.9.9.9 – 149.112.112.9 – 149.112.112.112</string>
-    <string name="lbl_save" translatable="true">zapisz</string>
+    <string name="lbl_save" translatable="true">Zapisz</string>
     <string name="cd_deleted_toast" translatable="true">Usunięto wszystkie reguły domeny</string>
     <string name="lbl_optional" translatable="true">(opcja)</string>
     <string name="settings_go_log_desc" translatable="true">Do celów debugowania</string>
@@ -834,7 +834,7 @@
     <string name="import_error" translatable="true">Nie można zaimportować tunelu: %s</string>
     <string name="new_warp_invalid_config_toast" translatable="true">Nieprawidłowa konfiguracja WARP</string>
     <string name="bad_config_reason_unknown_attribute" translatable="true">Nieznany atrybut</string>
-    <string name="settings_allow_lan_heading" translatable="true">Nie kieruj prywatnych adresów IP (eksperymentalnie)</string>
+    <string name="settings_allow_lan_heading" translatable="true">Nie kieruj prywatnych adresów IP</string>
     <string name="lbl_delete" translatable="true">Usuń</string>
     <string name="lbl_qr_code" translatable="true">Kod QR</string>
     <string name="app_ip_domain_rules_desc" translatable="true">Modyfikowanie reguł adresu IP/domeny aplikacji.</string>
@@ -950,7 +950,7 @@
     <string name="lbl_peer" translatable="true">Peer</string>
     <string name="lbl_split" translatable="true">Podział</string>
     <string name="lbl_idle" translatable="true">Bezczynność</string>
-    <string name="lbl_notification" translatable="true">powiadomienie</string>
+    <string name="lbl_notification" translatable="true">Powiadomienie</string>
     <string name="hybrid_mode_with_proxy_notification_title" translatable="true">Pod ochroną! Połączono z DNS + Firewall + Proxy.</string>
     <string name="dot_custom_url_remove_dialog_message" translatable="true">Usuń punkt końcowy DNS przez TLS z zapisanej konfiguracji.</string>
     <string name="memory_notification_text">Rethink ma mało pamięci. Akcje systemowe mogą być ograniczone.</string>
@@ -963,4 +963,69 @@
     <string name="lbl_expired" translatable="true">Wygasło</string>
     <string name="lbl_cancelled" translatable="true">Anulowane</string>
     <string name="lbl_test" translatable="true">Test</string>
+    <string name="lbl_unknown" translatable="true">Nieznany</string>
+    <string name="lbl_on" translatable="true">Włączony</string>
+    <string name="lbl_off" translatable="true">Wyłączony</string>
+    <string name="log_activity_conn_count" translatable="true">%1$d połączeń</string>
+    <string name="log_activity_interval_empty" translatable="true">W tym okresie nie odnotowano żadnej aktywności</string>
+    <string name="logs_card_grid_desc" translatable="true">Siatka aktywności, stuknij aby wyświetlić szczegóły</string>
+    <string name="lbl_enable" translatable="true">Włącz</string>
+    <string name="restore_defaults_dialog_title" translatable="true">Przywrócić ustawienia domyślne?</string>
+    <string name="restore_defaults_dialog_message" translatable="true">Wszystkie ustawienia na tym ekranie zostaną przywrócone do wartości domyślnych. Tej czynności nie można cofnąć.</string>
+    <string name="restore_defaults_success_toast" translatable="true">Ustawienia przywrócone do wartości domyślnych</string>
+    <string name="lbl_app_rules" translatable="true">Reguły aplikacji</string>
+    <string name="lbl_notes" translatable="true">Notatki</string>
+    <string name="hint_notes" translatable="true">Dodaj notatki na temat tej aplikacji</string>
+    <string name="ctbs_note_char_counter" translatable="true">%1$d/%2$d</string>
+    <string name="ctbs_app_notes_too_long" translatable="true">Notatki mogą mieć maksymalnie 500 znaków</string>
+    <string name="ctbs_app_notes_save_failed" translatable="true">Nie udało się zapisać notatek</string>
+    <string name="lbl_unselect_all" translatable="true">odznacz wszystko</string>
+    <string name="lbl_plan" translatable="true">Zaplanuj</string>
+    <string name="lbl_grace_period" translatable="true">Okres karencji</string>
+    <string name="lbl_service_providers" translatable="true">Dostawcy usług</string>
+    <string name="lbl_default" translatable="true">Domyślne</string>
+    <string name="lbl_connect" translatable="true">Połącz</string>
+    <string name="ip_mismatch_notification_title" translatable="true">Niezgodność protokołów sieciowych</string>
+    <string name="ip_mismatch_notification_content" translatable="true">Wybrany protokół IP nie jest dostępny w bieżącej sieci. Aby utrzymać połączenie przełącz się na tryb „IPv4 i IPv6” lub „Auto”.</string>
+    <string name="wireguard_title" translatable="true">Bezpieczny internet dzięki WireGuard</string>
+    <string name="wireguard_desc" translatable="true">Szyfruj swój ruch internetowy za pomocą WireGuard. Wybieraj różne ścieżki dla poszczególnych aplikacji.</string>
+    <string name="firewall_title" translatable="true">Chroń swój system Android za pomocą zapory sieciowej (firewalla)</string>
+    <string name="firewall_desc" translatable="true">Kontroluj korzystanie z internetu przez aplikacje; ograniczaj połączenia w oparciu o aktywność danej aplikacji lub sieci.</string>
+    <string name="dns_title" translatable="true">Blokuj reklamy i złośliwe oprogramowanie za pomocą DNS</string>
+    <string name="dns_desc" translatable="true">Wybieraj spośród ponad 190 list aby blokować reklamy, narzędzia śledzące oraz złośliwe oprogramowanie.</string>
+    <string name="status_no_network" translatable="true">brak sieci</string>
+    <string name="conn_track_clear_rule_logs_title" translatable="true">Usunąć dzienniki dla tej reguły?</string>
+    <string name="conn_track_clear_rule_logs_message" translatable="true">Spowoduje to usunięcie logów sieciowych wyłącznie dla aktualnie przeglądanej reguły zapory sieciowej. Tej operacji nie można cofnąć. Czy chcesz kontynuować?</string>
+    <string name="bsct_meta_activity" translatable="true">Aktywność</string>
+    <string name="bsct_meta_info" translatable="true">Info</string>
+    <string name="rethink_empty_state_title" translatable="true">Nie znaleziono list blokowanych elementów</string>
+    <string name="rethink_empty_state_desc" translatable="true">Aby rozpocząć pobierz lub skonfiguruj listę blokowanych elementów.</string>
+    <string name="download_update_dialog_message_play" translatable="true">W Google Play dostępna jest nowa wersja aplikacji. Czy chcesz ją zaktualizować?</string>
+    <string name="settings_connectivity_checks_desc" translatable="true">Wysyłane są testy łączności w celu sprawdzenia osiągalności.</string>
+    <string name="settings_mobile_metered_heading" translatable="true">Monitoruj sieci komórkowe</string>
+    <string name="settings_mobile_metered_desc" translatable="true">Traktuj sieci komórkowe jako połączenia z limitem danych, pozostałe traktuj jako połączenia bez limitu danych.</string>
+    <string name="settings_exclude_proxy_apps_desc" translatable="true">Po wyłączeniu aplikacje pośredniczące (proxy typu SOCKS5, HTTP, DNS) zostają wykluczone z tunelu VPN aplikacji Rethink.</string>
+    <string name="settings_log_lifespan_desc_default" translatable="true">7 dni (domyślnie)</string>
+    <string name="settings_rinr_desc_disabled" translatable="true">Kieruje własny ruch aplikacji Route Rethink – taki jak pobieranie czarnych list, sprawdzanie łączności czy połączenia DNS – z powrotem do tunelu.</string>
+    <string name="app_info_rethink_warning_title" translatable="true">Uwaga</string>
+    <string name="app_info_rethink_warning_desc" translatable="true">Masz zamiar zmienić reguły zapory sieciowej dla aplikacji Rethink. Ponieważ Rethink zarządza tunelem VPN, zezwalanie na ruch generowany przez samą aplikację, blokowanie go lub izolowanie może doprowadzić do całkowitej utraty dostępu do sieci.</string>
+    <string name="app_info_rethink_warning_proceed" translatable="true">Rozumiem</string>
+    <string name="rethink_home_screen_warning" translatable="true">może wpływać na łączność ⚠️</string>
+    <string name="settings_log_lifespan_dialog_option_0" translatable="true">1 godzina</string>
+    <string name="settings_log_lifespan_dialog_option_1" translatable="true">3 godziny</string>
+    <string name="settings_log_lifespan_dialog_option_2" translatable="true">6 godzin</string>
+    <string name="settings_log_lifespan_dialog_option_3" translatable="true">12 godzin</string>
+    <string name="settings_log_lifespan_dialog_option_4" translatable="true">1 dzień</string>
+    <string name="settings_log_lifespan_dialog_option_5" translatable="true">3 dni</string>
+    <string name="settings_log_lifespan_dialog_option_6" translatable="true">7 dni</string>
+    <string name="pcap_mode_section_title" translatable="true">Tryb przechwytywania</string>
+    <string name="pcap_files_section_title" translatable="true">Przechwycone pliki</string>
+    <string name="pcap_empty_state" translatable="true">Brak plików pcap. Pliki utworzone w wyniku przechwytywania pakietów pojawią się w tym miejscu.</string>
+    <string name="pcap_delete_file_confirmation" translatable="true">Usunąć %1$s?</string>
+    <string name="pcap_delete_all_confirmation" translatable="true">Usunąć wszystkie przechwycone pliki pcap? Jeśli trwa przechwytywanie, zostanie ono zatrzymane.</string>
+    <string name="pcap_file_delete_failed_toast" translatable="true">Nie można usunąć %1$s</string>
+    <string name="pcap_active_file_label" translatable="true">Aktywuj przechwytywanie</string>
+    <string name="pcap_view_file_desc" translatable="true">Wyświetl plik pcap</string>
+    <string name="pcap_open_failed_toast" translatable="true">Nie udało się otworzyć</string>
+    <string name="pcap_open_folder" translatable="true">Otwórz folder</string>
 </resources>
